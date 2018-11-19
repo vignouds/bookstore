@@ -1,1 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
+h1 {
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 15px;
+  font-size: 1.1em;
+  padding-bottom: 3px;
+}
+
+nav li:hover {
+  color: MediumSeaGreen;
+  border-bottom: 3px solid MediumSeaGreen;
+}
+
+form {
+  border: 1px solid MediumSeaGreen;
+}
+
+label {
+  display: block;
+}
+
+button {
+  background-color: MediumSeaGreen;
+  color: white;
+  font-weight: bold;
+}
+
+button:disabled {
+  background-color: #F2F2F2;
+  color: grey;
+  font-weight: inherit;
+}
+
+input:focus {
+  border-color: MediumSeaGreen;
+}
+
+.formRow {
+  margin: 1em;
+}
+
+.errorAlert {
+  color: red;
+  margin-top: 5px;
+  font-style: italic;
+}

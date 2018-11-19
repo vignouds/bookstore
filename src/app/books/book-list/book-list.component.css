@@ -1,0 +1,14 @@
+li {
+  list-style: none;
+}
+
+li:hover {
+  background-color: MediumSeaGreen;
+}
+
+table {
+  width: 100%;
+}
+tr:hover {
+  background-color: MediumSeaGreen;
+}

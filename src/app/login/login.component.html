@@ -1,0 +1,16 @@
+<div *ngIf="connectError" class="errorAlert">
+  {{'ERRORS.LOGIN' | translate}}
+</div>
+<form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+  <div class="formRow">
+    <input placeholder="{{'GLOBAL.NAME' | translate}}" formControlName="name">
+    <!-- <app-form-error [name]="name"></app-form-error> -->
+  </div>
+  <div class="formRow">
+    <input type="password" placeholder="{{'GLOBAL.PWD' | translate}}" formControlName="password">
+    <!-- <app-form-error [name]="password"></app-form-error> -->
+  </div>
+  <div class="formRow">
+    <button type="submit" [disabled]="loginForm.invalid">{{'GLOBAL.OK' | translate}}</button>
+  </div>
+</form>

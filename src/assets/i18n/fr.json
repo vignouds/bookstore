@@ -1,0 +1,32 @@
+{
+    "GLOBAL": {
+      "BOOKS": "Livres",
+      "ADMIN": "Admin",
+      "SUBMIT": "Envoyer",
+      "TRANSLATE": "Traduire",
+      "NAME": "nom",
+      "PWD": "mot de passe",
+      "OK": "ok",
+      "DISCONNECT": "Deconnexion",
+      "ENGLISH": "Anglais",
+      "FRENCH": "Français"
+    },
+    "ERRORS": {
+      "REQUIRED": "Ce champs est requis.",
+      "MINLENGHT": "Ce champs doit comporter au moins {{value}} caractères.",
+      "LOGIN": "Nom et/ou mot de passe invalide."
+    },
+    "BOOKS": {
+      "WELCOM": "Bienvenue dans le",
+      "HOME": "Acceuil",
+      "DETAIL": "Détails du livre",
+      "AUTHOR": "Auteur",
+      "TITLE": "Titre"
+    },
+    "ADMIN": {
+      "WELCOM": "Bienvenue",
+      "NEWBOOK": "Nouveau livre",
+      "NEWAUTHOR": "Nouvel auteur",
+      "NAME": "nom"
+    }
+}

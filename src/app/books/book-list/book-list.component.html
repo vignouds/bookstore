@@ -1,0 +1,18 @@
+<!-- <ul>
+  <li *ngFor="let book of books | async; let i = index" [routerLink]="[book.id]">
+    {{i+1}} - <span appUppercase>{{book.title}}</span> / <a>{{book.author}}</a>
+  </li>
+</ul> -->
+<table>
+  <thead appUppercase>
+    <th>{{'BOOKS.TITLE' | translate}}</th>
+    <th>{{'BOOKS.AUTHOR' | translate}}</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let book of books | async; let i = index">
+      <td [routerLink]="[book.id]">{{book.title}}</td>
+      <td [routerLink]="[book.id]">{{book.author}}</td>
+      <td *ngIf="isConnected()"><button (click)="deleteBook(book)"><fa-icon icon="trash-alt"></fa-icon></button></td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,17 @@
+nav {
+  background-color: MediumSeaGreen;
+  color: white;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  font-weight: bold;
+}
+
+nav li {
+  border-bottom: 3px solid MediumSeaGreen;
+}
+
+nav li:hover
+{
+  color: inherit;
+  border-bottom: 3px solid white;
+}

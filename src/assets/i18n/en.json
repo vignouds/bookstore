@@ -1,0 +1,32 @@
+{
+    "GLOBAL": {
+      "BOOKS": "Books",
+      "ADMIN": "Admin",
+      "SUBMIT": "Submit",
+      "TRANSLATE": "Translate",
+      "NAME": "name",
+      "PWD": "password",
+      "OK": "ok",
+      "DISCONNECT": "Disconnect",
+      "ENGLISH": "English",
+      "FRENCH": "French"
+    },
+    "ERRORS": {
+      "REQUIRED": "This field is required.",
+      "MINLENGHT": "This field must be at least {{value}} characters long.",
+      "LOGIN": "Name and/or password is invalid."
+    },
+    "BOOKS": {
+      "WELCOM": "Welcom to",
+      "HOME": "Home",
+      "DETAIL": "Books' details",
+      "AUTHOR": "Author",
+      "TITLE": "Title"
+    },
+    "ADMIN": {
+      "WELCOM": "Welcom",
+      "NEWBOOK": "New Book",
+      "NEWAUTHOR": "New Author",
+      "NAME": "name"
+    }
+}

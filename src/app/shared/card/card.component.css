@@ -1,0 +1,13 @@
+.card {
+  border: 2px solid MediumSeaGreen;
+}
+.card-header {
+  padding: 1em;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: lightgreen;
+}
+.card-body {
+  padding: 1em;
+}

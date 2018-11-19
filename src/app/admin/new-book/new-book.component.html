@@ -1,0 +1,21 @@
+<form (ngSubmit)="onSubmit(bookForm)" #bookForm="ngForm">
+  <div class="formRow">
+    <h2>{{'ADMIN.NEWBOOK' | translate}}</h2>
+  </div>
+  <div class="formRow">
+    <label for="title">{{'BOOKS.TITLE' | translate}}</label>
+    <input name="title" [(ngModel)]="book.title" #title="ngModel" required>
+    <app-form-error [name]="title"></app-form-error>
+  </div>
+  <div class="formRow">
+    <label for="author">{{'BOOKS.AUTHOR' | translate}}</label>
+    <select name="author" [(ngModel)]="book.author">
+      <option *ngFor="let author of authors | async" [value]="author.name">{{author.name}}</option>
+    </select>
+    <!-- <input name="author" [(ngModel)]="book.author" #author="ngModel" required> -->
+    <!-- <app-form-error [name]="author"></app-form-error> -->
+  </div>
+  <div class="formRow">
+    <button type="submit" [disabled]="bookForm.invalid">{{'GLOBAL.SUBMIT' | translate}}</button>
+  </div>
+</form>

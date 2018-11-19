@@ -1,0 +1,12 @@
+<button routerLink="/">{{'BOOKS.HOME' | translate}}</button>
+<div *ngIf="book">
+  <h2>{{'BOOKS.DETAIL' | translate}}</h2>
+  <app-card>
+    <div header>
+      {{book.title}}
+    </div>
+    <div body>
+      {{'BOOKS.AUTHOR' | translate}} : {{book.author}}
+    </div>
+  </app-card>
+</div>

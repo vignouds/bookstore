@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Le Trone de Fer",
+      "author": "George RR Martin"
+    },
+    {
+      "id": 2,
+      "title": "Bel Ami",
+      "author": "Guy de Maupassant"
+    },
+    {
+      "title": "L'Argent",
+      "author": "Zola",
+      "id": 3
+    }
+  ],
+  "authors": [
+    {
+      "name": "Zola",
+      "id": 1
+    },
+    {
+      "name": "Guy de Maupassant",
+      "id": 2
+    },
+    {
+      "name": "George RR Martin",
+      "id": 3
+    }
+  ]
+}
